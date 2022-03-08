@@ -6,3 +6,11 @@ git config --global user.email "sagarwal@register-iri.com"
 git config --list
 
 git init
+
+git add .
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/sagarwaliri/home.git
+
+git push -u origin master
